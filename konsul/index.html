@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 COUNTER</title>
+    <style>
+        /*untuk teks heading di tag <body>*/
+        h2
+        {
+            background-color: #F08080;
+            color: crimson;
+            font-family: sans-serif;
+            text-align: center;
+            width: 45%;
+            margin:auto;
+            padding: 20px;
+        }
+
+        body
+        {
+            background-image: url('wave.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+  <p>
+  <u>
+  <h2>Self Check Up COVID-19</h2>
+  </U></P>
+  <form id="form1" name="form1" method="post" action="">
+   <ol start="1" type="1">
+  <p>1. Apakah Anda mengalami salah satu dari yang berikut:</p>
+  <br>
+
+
+     <ol start="1" type="1">
+      <i>
+  <li><input type="checkbox" name="NO1" value="1">Kesulitan bernafas yang parah (Bernafas dengan sangat cepat atau berbicara dalam satu kata)</li>
+  <li><input type="checkbox" name="NO1" value="2">Nyeri dada yang parah</li>
+  <li><input type="checkbox" name="NO1" value="3">Sulit untuk bangun</li>
+  <li><input type="checkbox" name="NO1" value="4">Merasa kebingungan</li>
+  <li><input type="checkbox" name="NO1" value="5">Penurunan kesadaran</li>
+  </i>
+     </ol>
+  <br>
+  <form action="proses.php" method="get">
+	<button type="submit">SUBMIT</button>
+</form>
+
+
+</body>
+</html>
